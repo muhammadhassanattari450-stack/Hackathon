@@ -6,14 +6,15 @@
 .navbars{
     display: flex;
     /* border: 1px solid red; */
-    gap: 10px;
+    gap: 2px;
     justify-content: space-around;
     align-items: center;
 
 }
 
 .logo{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 150px;
 }
 .navbars a{
     color: black;
@@ -30,18 +31,24 @@
     border-radius: 40px;
     background-color: #F9E6D0;
 }
+
 .img-1{
     /* border: 1px solid red; */
     overflow: hidden;
     /* margin-bottom:100rem; */
     border-radius: 30px;
+    position: relative;
+    top: -90px;
 }
 .img-2{
     margin-left:145px;
     justify-content: end;
     /* margin-bottom: 500px; */
     overflow: hidden;
-    border-radius: 0px 0px 50px 0px;
+    /* border-radius: 0px 0px 50px 0px; */
+    position: relative;
+    top: -185px;
+    right: 1px;
 }
 .Hero h1{
     margin-top: 30px;
@@ -58,4 +65,255 @@
     margin-bottom: 200px;
 }
 
+.hero-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 80px;
+  gap: 40px;
+}
 
+.hero-content {
+  max-width: 50%;
+}
+
+.tag {
+  font-size: 14px;
+  color: #0b4f4a;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #063f3a;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #4a6b68;
+  margin-bottom: 30px;
+}
+.hero-image {
+  background: #063f3a;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  height: 350px;
+}
+.btn{
+    color:black ;
+    background-color: #063f3a;
+}
+
+.hero-image img {
+  max-width: 350px;
+  display: block;
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+}
+.card {
+  background: #ffffff;
+  width: 360px;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #0b3b3c;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #355f60;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.card button {
+  background: transparent;
+  border: 2px solid #0b3b3c;
+  color: #0b3b3c;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #0b3b3c;
+  color: #ffffff;
+}
+.ser{
+    gap: 10px;
+    display: flex;
+}
+.card1{
+    background-color: antiquewhite;
+}
+.wellness {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 40px;
+  padding: 60px;
+  gap: 40px;
+}
+
+.wellness-content {
+  max-width: 55%;
+}
+
+.wellness-content h2 {
+  font-size: 32px;
+  color: #063f3a;
+  margin-bottom: 20px;
+}
+
+.wellness-content p {
+  font-size: 15px;
+  color: #4a6b68;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #063f3a;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0b4f4a;
+}
+
+.wellness-image img {
+  max-width: 360px;
+  display: block;
+}
+.testimonials {
+  display: flex;
+  padding: 80px;
+  gap: 60px;
+}
+
+.left {
+  max-width: 400px;
+}
+
+.tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #2c6e6a;
+  font-weight: bold;
+}
+
+.left h2 {
+  font-size: 42px;
+  margin: 20px 0;
+  color: #003b3b;
+}
+
+.left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.arrows {
+  margin-top: 30px;
+}
+
+.arrows button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.arrows .active {
+  background: #003b3b;
+  color: white;
+}
+
+.right {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  width: 320px;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+.light {
+  background: #fdebd3;
+  color: #003b3b;
+}
+
+.dark {
+  background: #003b3b;
+  color: #ffffff;
+}
+
+.partners {
+  padding: 60px;
+}
+
+.partners-box {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 35px 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.title {
+  color: #1f4f4f;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.logos img {
+  height: 28px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.logos img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
